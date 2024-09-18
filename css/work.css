@@ -1,0 +1,100 @@
+.work-heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0F2137;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.work-categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+}
+
+.work-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.work-title {
+    font-size: 17px;
+    color: #0F2137;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.work-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #0F2137;
+    margin-bottom: 30px;
+}
+
+.work-btn {
+    background-color: #FFFFFF;
+    color: #2E8DFF;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.work-btn:active {
+    transform: scale(.99);
+    color: #0F2137;
+}
+
+.work-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    mix-blend-mode: multiply;
+    margin-top: 100px;
+}
+
+.work-details {
+    padding: 20px;
+}
+
+.details-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #0F2137;
+    margin-bottom: 20px;
+}
+
+.details-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #0F2137;
+    margin-bottom: 20px;
+}
+
+.work-steps {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.work-steps .step-no {
+    color: #09131F;
+    font-size: 55px;
+}
+
+.step-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #09131F;
+    margin-bottom: 10px;
+}
+
+.step-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #343D48;
+    margin-bottom: 10px;
+}
