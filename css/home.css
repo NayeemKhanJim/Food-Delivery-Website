@@ -1,0 +1,103 @@
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "DM Sans", sans-serif;
+    background-color: #FFF2D9;
+    margin-bottom: 30px;
+}
+
+.home-photo img {
+    mix-blend-mode: multiply;
+    width: 550px;
+    height: 526px;
+}
+
+.home-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #081C27;
+    margin-top: 90px;
+}
+
+.home-subtitle {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: #00334E;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.home-input-btn {
+    width: 450px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.input {
+    padding: 20px;
+    border: none;
+    width: 340px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.location-icon {
+    font-size: 18px;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+.click {
+    background-color: #00334E;
+    color: #FFFFFF;
+    width: 77px;
+    height: 60px;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.click:active {
+    transform: scale(0.98);
+}
+
+.app-available {
+    font-weight: 500;
+    color: #33596A;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.app-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.app-btn {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #00334E;
+    border-radius: 10px;
+}
+
+.app-btn .app-icon {
+    font-size: 20px;
+}
+
+.app-btn:hover {
+    color: aliceblue;
+    background-color: #00334E;
+}
+
+.app-btn:active {
+    transform: scale(0.98);
+}

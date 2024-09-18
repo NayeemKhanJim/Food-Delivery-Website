@@ -22,3 +22,7 @@ ul {
 a {
     text-decoration: none;
 }
+
+section {
+    margin-top: 50px;
+}
