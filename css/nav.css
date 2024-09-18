@@ -1,0 +1,92 @@
+.nav {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.nav .nav-logo img {
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    height: 33px;
+}
+
+.logo-title {
+    color: #00334E;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    position: absolute;
+    left: 40px;
+
+}
+
+.nav-logo:hover {
+    color: violet;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 1.7rem;
+    margin-top: 33px;
+    position: relative;
+}
+
+.nav-item {
+    color: #00334E;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.nav-btns {
+    margin-left: 220px;
+}
+
+.nav-btns .nav-btn-join {
+    font-family: "DM Sans", sans-serif;
+    background-color: #081C27;
+    width: 110px;
+    height: 45px;
+    color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.nav-btn-join:hover {
+    background-color: #fff;
+    color: #00334E;
+    border: none;
+}
+
+.nav-btn-join:active {
+    transform: scale(0.9);
+}
+
+.nav-btns .nav-btn-login {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 1500;
+    line-height: 20px;
+    color: #00334E;
+    width: 114px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-btn-login:hover {
+    background-color: #fff;
+}
+
+.nav-btn-login:active {
+    transform: scale(0.9);
+}
