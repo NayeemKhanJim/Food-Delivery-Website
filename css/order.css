@@ -1,0 +1,40 @@
+.order {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.order-title {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #0F2137;
+    margin-bottom: 60px;
+}
+
+.order-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #0F2137;
+    margin-bottom: 30px;
+}
+
+.order-now {
+    font-size: 15px;
+    width: 166px;
+    height: 55px;
+    background-color: #00CC99;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.order-now:active {
+    transform: scale(.99);
+}
+
+.order-image {
+    mix-blend-mode: multiply;
+}
