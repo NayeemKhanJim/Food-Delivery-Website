@@ -1,0 +1,39 @@
+.feature {
+    background: url('BG_Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.feature-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #0F2137;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feature-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+
+}
+
+.feature-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #09131F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-card-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #343D48;
+}
