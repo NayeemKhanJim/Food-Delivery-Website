@@ -12,6 +12,8 @@
     position: relative;
     overflow: hidden;
     display: inline-block;
+    width: 356px;
+    height: 345px;
 }
 
 .food-card img {
@@ -39,6 +41,13 @@
     color: #0F2137;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.food-title:hover {
+    color: grey;
+    transition: 500ms;
+
 }
 
 .category {
@@ -64,6 +73,12 @@
     margin-top: 60px;
     position: absolute;
     left: 43%;
+    cursor: pointer;
+}
+
+.discover-more:hover {
+    opacity: 0.8;
+    transition: 500m ease-in;
 }
 
 .food-categories {
@@ -81,7 +96,8 @@
 }
 
 .food-btn {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500;
     background-color: #F1F5F8;
     color: #0F2137;
     padding: 10px 30px;

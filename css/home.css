@@ -27,6 +27,7 @@
 .home-subtitle {
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
+    font-weight: 400;
     color: #00334E;
     margin-top: 25px;
     margin-bottom: 50px;
@@ -97,8 +98,15 @@
     font-size: 20px;
 }
 
+.app-title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
 .app-btn:hover {
-    color: aliceblue;
+    color: aliceblue !important;
     background-color: #00334E;
 }
 

@@ -34,6 +34,9 @@
 }
 
 .work-btn {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
     background-color: #FFFFFF;
     color: #2E8DFF;
     padding: 15px 30px;
@@ -81,6 +84,8 @@
 .work-steps .step-no {
     color: #09131F;
     font-size: 55px;
+    font-weight: 300;
+    line-height: 65px;
 }
 
 .step-title {
