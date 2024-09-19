@@ -19,6 +19,10 @@
     flex-shrink: 1;
 }
 
+.nav .nav-menu {
+    flex-grow: 1;
+}
+
 
 .header.scrolled {
     background-color: #FFFFFF !important;
@@ -27,6 +31,7 @@
 .nav .nav-menu .nav-list {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 55px;
 }
 
 .nav .nav-list .nav-item .nav-link {
