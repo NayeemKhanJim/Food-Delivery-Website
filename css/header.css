@@ -1,52 +1,47 @@
 .nav {
-    font-size: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin-top: 25px;
-    overflow: hidden;
+    transition: 0.6s;
+    padding: 30px 100px;
+
+}
+
+.nav.scrolled {
+    background-color: #FFFFFF;
+    opacity: 0.98;
+
+}
+
+.nav .nav-logo {
     position: relative;
-
-}
-
-.nav .nav-logo img {
-    position: absolute;
-    top: 30px;
-    width: 36px;
-    height: 33px;
-}
-
-.logo-title {
-    color: #00334E;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 24px;
-    position: absolute;
-    left: 40px;
-
-}
-
-.nav-logo:hover {
-    color: violet;
-}
-
-.nav-list {
-    display: flex;
-    column-gap: 1.7rem;
-    margin-top: 33px;
-    position: relative;
-}
-
-.nav-item {
-    color: #00334E;
-    font-size: 15px;
     font-weight: 500;
-    line-height: 33px;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: 0.6s;
 }
 
-.nav-btns {
-    margin-left: 220px;
+.nav .nav-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .nav-list .nav-item .nav-link {
+    position: relative;
+    letter-spacing: 1.5px;
+    color: #00334E;
+    margin: 0 10px;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .nav-btns .nav-btn-join {
@@ -81,6 +76,10 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.nav-btns {
+    margin-left: 120px;
 }
 
 .nav-btn-login:hover {
