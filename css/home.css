@@ -1,8 +1,13 @@
 .home {
+    background-color: #FFF2D9;
+}
+
+.home-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: "DM Sans", sans-serif;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .home-photo img {

@@ -1,45 +1,57 @@
-.nav {
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.6s;
-    padding: 30px 100px;
-
+    z-index: 800;
+    background-color: #FFF2D9;
+    padding: 20px;
 }
 
-.nav.scrolled {
-    background-color: #FFFFFF;
-    opacity: 0.98;
+.header-content {
+    position: relative;
+}
 
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.6s;
+    padding: 30px 100px;
+    overflow: hidden;
 }
 
 .nav .nav-logo {
-    position: relative;
-    font-weight: 500;
-    color: #000;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    transition: 0.6s;
+    position: absolute;
+    left: 0px;
+    top: 12px;
+}
+
+.nav-btns {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+.header.scrolled {
+    background-color: #FFFFFF !important;
 }
 
 .nav .nav-list {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 160px;
+    top: 18px;
 }
 
 .nav .nav-list .nav-item .nav-link {
     position: relative;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     color: #00334E;
     margin: 0 10px;
-    font-weight: 700;
+    font-weight: 500;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -56,13 +68,9 @@
 }
 
 .nav-btn-join:hover {
-    background-color: #fff;
-    color: #00334E;
-    border: none;
-}
+    opacity: .8;
+    transition: 1s ease-in-out;
 
-.nav-btn-join:active {
-    transform: scale(0.9);
 }
 
 .nav-btns .nav-btn-login {
@@ -76,10 +84,6 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-}
-
-.nav-btns {
-    margin-left: 120px;
 }
 
 .nav-btn-login:hover {

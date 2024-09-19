@@ -1,8 +1,8 @@
 .feature {
-    background: url('BG_Image.png');
+    background-image: url("../feature.png");
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
+
 }
 
 .feature-title {

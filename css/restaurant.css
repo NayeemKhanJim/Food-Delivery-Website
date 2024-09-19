@@ -27,7 +27,7 @@
 .food-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    column-gap: 10px;
     row-gap: 40px;
 
 }
@@ -49,6 +49,7 @@
 
 .category li:hover {
     color: aqua;
+    transition: 1s ease-in-out;
 }
 
 .discover-more {
@@ -57,9 +58,17 @@
     width: 186px;
     height: 55px;
     border-radius: 100px;
-    border: none;
     margin-bottom: 100px;
+    border: none;
+    transition: 1s ease-in;
     margin-top: 60px;
+    position: absolute;
+    left: 43%;
+}
+
+.food-categories {
+    text-align: center;
+    padding-top: 200px;
 }
 
 .food-categories-title {

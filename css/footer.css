@@ -1,14 +1,31 @@
 .footer-menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
     padding: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
+    position: relative;
 }
 
 .footer-list {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.footer-position {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.footer-item {
+    margin-left: 15px;
+}
+
+.logo-details {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
 }
