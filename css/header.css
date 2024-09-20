@@ -3,29 +3,27 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 800;
+    z-index: 900;
     background-color: #FFF2D9;
-    padding: 20px;
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 25px;
 }
 
 .nav .nav-logo {
+    width: 126px;
+    height: 33px;
     display: flex;
     flex-shrink: 1;
 }
 
 .nav .nav-menu {
     flex-grow: 1;
-}
-
-
-.header.scrolled {
-    background-color: #FFFFFF !important;
 }
 
 .nav .nav-menu .nav-list {
@@ -35,6 +33,9 @@
 }
 
 .nav .nav-list .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
     letter-spacing: 1px;
     color: #00334E;
     margin: 0 10px;
@@ -49,6 +50,7 @@
 
 .nav-btns {
     display: flex;
+    align-items: center;
     flex-shrink: 1;
 }
 
@@ -63,8 +65,8 @@
     color: #fff;
     border-radius: 100px;
     cursor: pointer;
-    margin-left: 10px;
     border: none;
+    margin-left: 30px;
 }
 
 .nav-btn-join:hover {
@@ -79,17 +81,19 @@
     font-weight: 700;
     line-height: 20px;
     color: #00334E;
-    width: 114px;
-    height: 40px;
+    width: 100px;
+    height: 20px;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
 .nav-btn-login:hover {
-    background-color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
 }
 
-.nav-btn-login:active {
-    transform: scale(0.9);
+.nav.scrolled {
+    background-color: transparent;
 }

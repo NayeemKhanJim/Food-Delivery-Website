@@ -4,7 +4,8 @@
     line-height: 26px;
     color: #0F2137;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 66px;
+    margin-top: 50px;
 }
 
 .social-links {
@@ -12,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    margin-bottom: 100px;
+    margin-bottom: 122px;
 }
 
 .social-link:active {
@@ -20,9 +21,15 @@
 }
 
 .testimonial-statements {
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 73px;
+    margin-bottom: 140px;
+}
+
+.testimonial-statement {
+    width: 507px;
+    height: 367px;
 }
 
 .statement-title {
@@ -44,4 +51,6 @@
 
 .testimonial-image {
     mix-blend-mode: multiply;
+    width: 550px;
+    height: 461px;
 }

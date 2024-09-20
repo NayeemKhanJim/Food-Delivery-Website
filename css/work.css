@@ -3,26 +3,33 @@
     font-weight: 700;
     color: #0F2137;
     text-align: center;
-    margin-bottom: 70px;
+    margin-top: 130px;
+    margin-bottom: 53px;
 }
 
 .work-categories {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 
 .work-card {
     background-color: #FFFFFF;
-    border-radius: 10px;
+    width: 376px;
+    height: 468px;
+}
+
+.work-card img {
+    width: 230px;
+    height: 168px;
 }
 
 .work-title {
     font-size: 17px;
     color: #0F2137;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 17px;
 }
 
 .work-subtitle {
@@ -30,16 +37,18 @@
     font-weight: 400;
     line-height: 30px;
     color: #0F2137;
-    margin-bottom: 30px;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .work-btn {
     font-size: 15px;
     font-weight: 700;
     line-height: 20px;
+    letter-spacing: -0.1px;
     background-color: #FFFFFF;
     color: #2E8DFF;
-    padding: 15px 30px;
     cursor: pointer;
     border: none;
 }
@@ -52,40 +61,70 @@
 .work-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    mix-blend-mode: multiply;
-    margin-top: 100px;
+    grid-column-gap: 32px;
 }
 
-.work-details {
-    padding: 20px;
+.work-info img {
+    width: 550px;
+    height: 568px;
+    position: relative;
+    /* Allows the element to move relative to its starting position */
+    animation: upDown 6s ease-in-out infinite;
 }
+
 
 .details-title {
+    width: 447px;
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
     color: #0F2137;
-    margin-bottom: 20px;
+    letter-spacing: -0.02px;
+}
+
+@keyframes upDown {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -100px;
+    }
+
+    100% {
+        top: 0;
+    }
 }
 
 .details-subtitle {
+    width: 550px;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     color: #0F2137;
+    margin-top: 16px;
     margin-bottom: 20px;
 }
 
 .work-steps {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+    width: 515px;
+    height: 120px;
+    display: flex;
+    gap: 0 50px;
+}
+
+.step-details {
+    width: 400px;
 }
 
 .work-steps .step-no {
-    color: #09131F;
+    color: grey;
     font-size: 55px;
     font-weight: 300;
     line-height: 65px;
+    width: 64px;
+    height: 65px;
+    letter-spacing: -0.01px;
 }
 
 .step-title {
@@ -93,7 +132,7 @@
     font-weight: 700;
     line-height: 30px;
     color: #09131F;
-    margin-bottom: 10px;
+    letter-spacing: -0.01px;
 }
 
 .step-subtitle {
@@ -101,5 +140,4 @@
     font-weight: 400;
     line-height: 24px;
     color: #343D48;
-    margin-bottom: 10px;
 }

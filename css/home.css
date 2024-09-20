@@ -6,14 +6,23 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: "DM Sans", sans-serif;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 116px;
+    padding-top: 52px;
+
+}
+
+.home-content {
+    width: 506px;
+    height: 394px;
+    padding-top: 128px;
+
 }
 
 .home-photo img {
     mix-blend-mode: multiply;
     width: 550px;
     height: 526px;
+    padding-top: 52px;
 }
 
 .home-title {
@@ -21,30 +30,45 @@
     font-weight: 700;
     line-height: 60px;
     color: #081C27;
-    margin-top: 90px;
+    width: 463px;
+    height: 120px;
+    padding-bottom: 10px;
 }
 
 .home-subtitle {
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.3px;
     color: #00334E;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    width: 506px;
+    height: 38px;
+    margin-bottom: 26px;
 }
 
-.home-input-btn {
+.home-input-form {
     width: 450px;
-    height: 60px;
+    height: 65px;
     background-color: #FFFFFF;
     border: none;
     border-radius: 10px;
+    margin-bottom: 25px;
+    position: relative;
 }
 
 .input {
-    padding: 20px;
+    font-family: "Work Sans", sans-serif;
     border: none;
     width: 340px;
+    height: 65px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #00334E;
+    position: absolute;
+    left: 14%;
 }
 
 .input:focus {
@@ -52,20 +76,26 @@
 }
 
 .location-icon {
-    font-size: 18px;
+    font-size: 25px;
     background-color: #FFFFFF;
-    padding: 5px;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    text-align: center;
 }
 
 .click {
     background-color: #00334E;
     color: #FFFFFF;
-    width: 77px;
-    height: 60px;
+    width: 80px;
+    height: 65px;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 5px;
     cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .click:active {
@@ -73,43 +103,54 @@
 }
 
 .app-available {
-    font-weight: 500;
-    color: #33596A;
+    font-size: 15px;
+    font-weight: 400;
     line-height: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    color: #33596A;
+    margin-bottom: 25px;
 }
 
 .app-btns {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .app-btn {
+    width: 182px;
+    height: 65px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 15px;
+    grid-template-columns: 1fr 3fr;
     background: transparent;
+    color: #081C27;
     border: 1px solid #00334E;
     border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.app-btn .app-title p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+
+
+}
+
+.app-btn .app-title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+
 }
 
 .app-btn .app-icon {
-    font-size: 20px;
-}
-
-.app-title h3 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-
+    font-size: 30px;
+    padding-left: 15px;
 }
 
 .app-btn:hover {
-    color: aliceblue !important;
+    color: aliceblue;
     background-color: #00334E;
-}
-
-.app-btn:active {
-    transform: scale(0.98);
+    transition: 1s ease-in-out;
 }

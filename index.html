@@ -24,7 +24,7 @@
           <!-- =====================================================================================
 	       ================================  MARKUP FOR HEADER  ======================================
 	       ======================================================================================= -->
-           <header class="header" id="header">
+        <header class="header">
             <div class="container">
                 <nav class="nav">
                     <a href="#" class="nav-logo">
@@ -57,7 +57,7 @@
 
             </div>
 
-           </header>
+        </header>
            		<!-- =====================================================================================
 	            ================================  MARKUP FOR HOME  ======================================
 	            ======================================================================================= -->
@@ -66,11 +66,13 @@
                         <div class="home-content">
                             <h1 class="home-title">Your favorite food,<br>delivered your home</h1>
                             <h5 class="home-subtitle">Food, drinks, groceries, and more available for delivery and pickup.</h5>
-                                <button class="home-input-btn">
-                                    <i class="fa-solid fa-location-dot location-icon"></i>
-                                    <input type="text" class="input" placeholder="Enter Your address">
-                                    <i class="fa-solid fa-arrow-right click"></i>
-                                </button>
+                                <form class="home-input-form">
+                                     <i class="fa-solid fa-location-dot location-icon"></i>
+                                    <input type="text" class="input" placeholder="Enter Your address...">
+                                    <button>
+                                        <i class="fa-solid fa-arrow-right click"></i>
+                                    </button>
+                                </form>
                             <p class="app-available">Apps Available to download on</p>
                             <div class="app-btns">
                                 <button class="app-btn">
@@ -78,24 +80,24 @@
                                         <i class="fa-brands fa-apple"></i>
                                     </div>
                                     <div class="app-title">
-                                        Download on the
+                                        <p> Download on the</p>
                                         <h3>App Store</h3>         
                                     </div>
                                 </button>
                                 <button class="app-btn">
                                     <div class="app-icon">
-                                       <i class="fa-brands fa-google-play app-icon"></i>
+                                       <i class="fa-brands fa-google-play"></i>
                                     </div>
                                      <div class="app-title">
-                                        Download on the 
+                                        <p> Download on the </p>
                                         <h3>Play Store</h3>      
                                     </div>
                                 </button>
                             </div>
-                            </div>
-                         <div class="home-photo">
+                        </div>
+                        <div class="home-photo">
                             <img src="img/banner.png" alt="Background image">
-                          </div> 
+                        </div> 
                     </div>  
                 </section>
 
@@ -111,8 +113,8 @@
                                 <h2 class="food-title">Pizza Hut Dalicious Pizza</h2>
                                 <ul class="category">
                                     <li class="food-item">American</li>
-                                    <li class="food-item">Fast Food</li>
-                                    <li class="food-item">Burgers</li>
+                                    <li class="food-item">• Fast Food</li>
+                                    <li class="food-item">• Burgers</li>
                                 </ul>
                             </div>
     
@@ -120,9 +122,9 @@
                                 <img src="img/maxican grill.png" alt="maxican-grill">
                                 <h2 class="food-title">Chipotle Mexican Grill (2675 Geary Boulevard)</h2>
                                 <ul class="category">
-                                    <li class="food-item">American</li>
-                                    <li class="food-item">Fast Food</li>
-                                    <li class="food-item">Burgers</li>
+                                    <a href=""><li class="food-item">Healthy</li></a>  
+                                    <a href=""><li class="food-item">• Mexican</li></a>
+                                    <a href=""><li class="food-item">• Fast Food</li></a>
                                 </ul>
                             </div>
     
@@ -131,8 +133,8 @@
                                 <h2 class="food-title">McDonald's® Burgers (Fillmore)</h2>
                                 <ul class="category">
                                     <li class="food-item">American</li>
-                                    <li class="food-item">Fast Food</li>
-                                    <li class="food-item">Burgers</li>
+                                    <li class="food-item">• Fast Food</li>
+                                    <li class="food-item">• Burgers</li>
                                 </ul>
                             </div>
     
@@ -140,9 +142,8 @@
                                 <img src="img/baked bear.png" alt="baked-bear">
                                 <h2 class="food-title">The Baked Bear San Francisco</h2>
                                 <ul class="category">
-                                    <li class="food-item">American</li>
-                                    <li class="food-item">Fast Food</li>
-                                    <li class="food-item">Burgers</li>
+                                    <li class="food-item">Desserts </li>
+                                    <li class="food-item">• Treditional Biryani</li>
                                 </ul>
                             </div>
     
@@ -150,9 +151,10 @@
                                 <img src="img/shake shack.png" alt="shack">
                                 <h2 class="food-title">Shake Shack  (3060 Fillmore Street)</h2>
                                 <ul class="category">
-                                    <li class="food-item">American</li>
-                                    <li class="food-item">Fast Food</li>
-                                    <li class="food-item">Burgers</li>
+                                    <li class="food-item">American </li>
+                                    <li class="food-item">• Fast Food</li>
+                                    <li class="food-item">• Southern</li> 
+                                    <li class="food-item">• Wings</li>  
                                 </ul>
                             </div>
     
@@ -161,15 +163,17 @@
                                 <h2 class="food-title">Chubby Noodle Chinese Takeout</h2>
                                 <ul class="category">
                                     <li class="food-item">American</li>
-                                    <li class="food-item">Fast Food</li>
-                                    <li class="food-item"> Burgers</li>
+                                    <li class="food-item">• Fast Food</li>
+                                    <li class="food-item">• Burgers</li>
                                 </ul>
                             </div>
                         </div>
-                        <button class="discover-more">
+                        <div class="food-btn-center">
+                            <button class="discover-more">
                                 Discover More
                                 <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                            </button>
+                        </div>
                         <div class="food-categories">
                             <h2 class="food-categories-title">Popular categories by food</h2>
                             <div class="food-types">
@@ -244,7 +248,7 @@
     
                                 <div class="work-steps">
                                     <div class="step-no">
-                                        02
+                                       02
                                     </div>
                                     <div class="step-details">
                                         <h4 class="step-title">Deliver Food within 30 min</h4>
@@ -407,8 +411,7 @@
 	       ================================  MARKUP FOR FOOTER ======================================
 	       ======================================================================================= -->
            <footer>
-            <div class="container footer">
-
+            <div class="container">
                 <div class="footer-menu">
                     <div class="footer-logo">
                         <a href="#">
@@ -416,15 +419,15 @@
                         </a>
                     </div>
                     <div class="logo-details">
-                        Copyright © 2020 RedQ, Inc.
+                        copyright © 2020 <a href="#"> RedQ, Inc.</a>
                     </div>
                     <ul class="footer-list ">
-                        <li class="footer-item">Support</li>
-                        <li class="footer-item">About Us</li>
-                        <li class="footer-item">Privacy</li>
-                        <li class="footer-item">Contact</li>
+                        <a href="#"><li class="footer-item">Support</li></a>
+                        <a href="#"><li class="footer-item">About Us</li></a>
+                        <a href="#"><li class="footer-item">Privacy</li></a>
+                        <a href="#"><li class="footer-item">Contact</li></a>
                     </ul>
-                    <ul class="footer-list footer-position">
+                    <ul class="footer-list">
                         <li class="footer-item">Social:</li> 
                         <a href="#">
                             <i class="fa-brands fa-facebook footer-item"></i>
