@@ -5,6 +5,7 @@
     align-items: center;
     margin-bottom: 48px;
     margin-top: 25px;
+    flex-shrink: 1;
 
 
 }
@@ -23,10 +24,7 @@
     color: #0F2137;
 }
 
-.logo-details {
-    flex-grow: 1;
-    padding-left: 20px;
-}
+.logo-details {}
 
 .footer-logo {
     width: 150px;
