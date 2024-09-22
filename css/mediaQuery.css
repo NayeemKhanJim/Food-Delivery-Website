@@ -1,0 +1,104 @@
+@media screen and (max-width : 375px) {
+    .container {
+        max-width: 335px;
+        margin: auto;
+    }
+
+    .header {
+        display: none;
+    }
+
+
+    /* ===================================For Home Section ================================================= */
+    .home-container {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .home-photo img {
+        mix-blend-mode: multiply;
+        aspect-ratio: 332/318;
+        object-fit: contain;
+        padding-top: 52px;
+        position: relative;
+    }
+
+    .home-title {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    }
+
+    .home-subtitle {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .home-input-form {
+        width: 335px;
+        height: 65px;
+    }
+
+    .input {
+        width: 142px;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-links {
+        gap: 30px 20px;
+    }
+
+
+
+
+
+
+
+
+    .work-categories {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        text-align: center;
+    }
+
+
+
+    .work-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 32px;
+    }
+
+
+    .feature-items {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 69px 48px;
+        text-align: center;
+        padding-bottom: 105px;
+
+    }
+
+    .testimonial-statements {
+        display: flex;
+        flex-direction: column;
+        gap: 73px 0;
+    }
+
+    .download-container {
+        display: flex;
+        flex-direction: column;
+        gap: 100px 0;
+    }
+
+
+
+
+
+
+}

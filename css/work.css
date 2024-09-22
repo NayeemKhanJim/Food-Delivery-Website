@@ -8,8 +8,8 @@
 }
 
 .work-categories {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     text-align: center;
 }
 
@@ -20,8 +20,9 @@
 }
 
 .work-card img {
-    width: 230px;
-    height: 168px;
+    max-width: 100%;
+    aspect-ratio: 230/168;
+    object-fit: cover;
 }
 
 .work-title {
@@ -53,9 +54,9 @@
     border: none;
 }
 
-.work-btn:active {
-    transform: scale(.99);
-    color: #0F2137;
+.work-btn:hover i {
+    transition: 500ms ease-in;
+    transform: translateX(5px);
 }
 
 .work-info {
@@ -65,8 +66,9 @@
 }
 
 .work-info img {
-    width: 550px;
-    height: 568px;
+    max-width: 100%;
+    aspect-ratio: 550/568;
+    object-fit: cover;
     position: relative;
     /* Allows the element to move relative to its starting position */
     animation: upDown 6s ease-in-out infinite;
@@ -74,7 +76,7 @@
 
 
 .details-title {
-    width: 447px;
+    /* width: 447px; */
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
@@ -88,7 +90,7 @@
     }
 
     50% {
-        top: -100px;
+        top: -40px;
     }
 
     100% {
@@ -97,7 +99,7 @@
 }
 
 .details-subtitle {
-    width: 550px;
+    /* width: 550px; */
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
@@ -107,25 +109,23 @@
 }
 
 .work-steps {
-    width: 515px;
-    height: 120px;
-    display: flex;
-    gap: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-bottom: 30px;
 }
 
-.step-details {
-    width: 400px;
-}
 
 .work-steps .step-no {
-    color: grey;
+    color: #09131F;
     font-size: 55px;
     font-weight: 300;
     line-height: 65px;
-    width: 64px;
-    height: 65px;
     letter-spacing: -0.01px;
+    opacity: 20%;
 }
+
+
+
 
 .step-title {
     font-size: 16px;
@@ -141,3 +141,9 @@
     line-height: 24px;
     color: #343D48;
 }
+
+
+
+
+
+/* grid-template-rows: repeat(4, minmax(0, 1fr)); eita use korte hobe */

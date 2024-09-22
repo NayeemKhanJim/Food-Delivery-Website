@@ -17,16 +17,15 @@
 }
 
 .food-card {
-    width: 356px;
-    height: 295px;
     overflow: hidden;
 }
 
 .food-card img {
-    width: 356px;
-    height: 230px;
     border-radius: 10px;
-    transition: transform 1s ease;
+    transition: 1s ease;
+    max-width: 100%;
+    aspect-ratio: 356/230;
+    object-fit: cover;
 }
 
 .food-card img:hover {
@@ -81,8 +80,9 @@
     text-align: center;
     color: #FFFFFF;
     background-color: #00CC99;
-    width: 186px;
-    height: 55px;
+    /* width: 186px;
+    height: 55px; */
+    padding: 17px 31px;
     border-radius: 100px;
     border: none;
     cursor: pointer;
@@ -90,6 +90,11 @@
 
 .discover-more:hover {
     opacity: 0.8;
+
+}
+
+.discover-more:hover i {
+    transform: translateX(7px);
     transition: 500ms ease-in;
 }
 

@@ -14,6 +14,7 @@
     justify-content: space-between;
     cursor: pointer;
     margin-bottom: 122px;
+    flex-wrap: wrap;
 }
 
 .social-link:active {
@@ -22,14 +23,9 @@
 
 .testimonial-statements {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     gap: 0 73px;
     margin-bottom: 140px;
-}
-
-.testimonial-statement {
-    width: 507px;
-    height: 367px;
 }
 
 .statement-title {
@@ -49,8 +45,9 @@
 
 }
 
-.testimonial-image {
+.testimonial-image img {
+    max-width: 100%;
+    aspect-ratio: 550/461;
+    object-fit: cover;
     mix-blend-mode: multiply;
-    width: 550px;
-    height: 461px;
 }

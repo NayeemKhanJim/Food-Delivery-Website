@@ -14,8 +14,9 @@
 }
 
 .photos img {
-    width: 268px;
-    height: 380px;
+    max-width: 100%;
+    aspect-ratio: 268/380;
+    object-fit: cover;
 }
 
 .gallery-title {

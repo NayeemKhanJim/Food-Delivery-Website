@@ -2,6 +2,7 @@
     background-image: url("../feature.png");
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 130px;
 
 }
 
@@ -16,24 +17,18 @@
 }
 
 .feature-items {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 30px 48px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 69px 48px;
     text-align: center;
     padding-bottom: 105px;
 
 }
 
-.feature-card {
-    width: 261px;
-    height: 251px;
-}
-
 .feature-card img {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 
 .feature-card-title {

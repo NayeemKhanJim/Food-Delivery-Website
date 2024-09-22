@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/order.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
 </head>
 <body>
           <!-- =====================================================================================
@@ -30,6 +31,9 @@
                     <a href="#" class="nav-logo">
                         <img src="img/new-logo.png" alt="Logo">
                     </a>
+                    <button class="nav-toggle" id="nav-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                     <div class="nav-menu">
                         <ul class="nav-list">
                             <li class="nav-item">
@@ -69,21 +73,18 @@
                                 <form class="home-input-form">
                                      <i class="fa-solid fa-location-dot location-icon"></i>
                                     <input type="text" class="input" placeholder="Enter Your address...">
-                                    <button>
-                                        <i class="fa-solid fa-arrow-right click"></i>
+                                    <button class="click">
+                                        <i class="fa-solid fa-arrow-right "></i>
                                     </button>
                                 </form>
                             <p class="app-available">Apps Available to download on</p>
                             <div class="app-btns">
-                                <div class="app-btn">
-                                    <div class="app-icon">
-                                        <i class="fa-brands fa-apple"></i>
-                                    </div>
-                                    <div class="app-title">
-                                        <p> Download on the</p>
-                                        <h3>App Store</h3>         
-                                    </div>
-                                </div>
+                                <button class="app-btn">
+                                    <i class="fa-brands fa-apple app-icon"></i>
+                                    <p class="app-title"> Download on the
+                                       <strong>App Store</strong> 
+                                    </p>        
+                                </button>
                                 <div class="app-btn">
                                     <div class="app-icon">
                                        <i class="fa-brands fa-google-play"></i>
@@ -320,12 +321,12 @@
             <div class="container">
                 <h1 class="testimonial-title">210,000+ people already use our app on a daily basis</h1>
                 <div class="social-links">
-                    <img src="img/slack.png" alt="slack" class="social-link">
-                    <img src="img/leo.png" alt="leoq" class="social-link">
-                    <img src="img/oimenu.png" alt="orimenu" class="social-link">
-                    <img src="img/subway.png" alt="subway" class="social-link">
-                    <img src="img/visao.png" alt="visao" class="social-link">
-                    <img src="img/oralUnic.png" alt="oralUnic" class="social-link">
+                    <div><img src="img/slack.png" alt="slack" class="social-link"></div>
+                    <div><img src="img/leo.png" alt="leoq" class="social-link"></div>
+                    <div><img src="img/oimenu.png" alt="orimenu" class="social-link"></div>
+                    <div><img src="img/subway.png" alt="subway" class="social-link"></div>
+                    <div><img src="img/visao.png" alt="visao" class="social-link"></div>
+                    <div><img src="img/oralUnic.png" alt="oralUnic" class="social-link"></div>
                 </div>
                 <div class="testimonial-statements">
                     <div class="testimonial-statement">
@@ -347,7 +348,7 @@
                 <img src="img/download.png" alt="AppPhotos" class="download-photos">
                 <div class="download-contents">
                     <h2 class="download-title">Connecting our user with iOS 
-                        & Android apps. Download from
+                        & <br> Android apps. Download from <br>
                         iTune & Play store</h2>
                     <p class="download-subtitle">Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. We’re driven beyond just finishing the projects. We want to find solutions using our website & apps.</p>
                     <div class="app-btns">
@@ -412,25 +413,22 @@
            <footer>
             <div class="container">
                 <div class="footer-menu">
-                    <div class="footer-logo">
-                        <a href="#">
-                            <img src="img/new-logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="logo-details">
-                        copyright © 2020 <a href="#"> RedQ, Inc.</a>
-                    </div>
-                    <ul class="footer-list ">
-                        <li class="footer-item"><a href="#">Support</a></li>
-                        <li class="footer-item"><a href="#">About Us</a></li>
-                        <li class="footer-item"><a href="#">Privacy</a></li>
-                        <li class="footer-item"><a href="#">Contact</a></li>
+                    <ul class="footer-logo">
+                        <img src="img/new-logo.png" alt="logo">
+                        <span>copyright © 2020 </span>
+                        <a href="#">RedQ, Inc.</a>
                     </ul>
-                    <ul class="footer-list">
-                        <li class="footer-item">Social:</li> 
-                        <li><a href="#"><i class="fa-brands fa-facebook footer-item"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter footer-item"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-volleyball footer-item"></i></a></li>
+                    <ul class="footer-list ">
+                        <li ><a class="footer-item" href="#">Support</a></li>
+                        <li ><a class="footer-item" href="#">About Us</a></li>
+                        <li ><a class="footer-item" href="#">Privacy</a></li>
+                        <li ><a class="footer-item" href="#">Contact</a></li>
+                    </ul>
+                    <ul class="footer-icon-list">
+                        <li>Social:</li> 
+                        <li><a href="#"><i class="fa-brands fa-facebook footer-icon fb"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter footer-icon twt"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-volleyball footer-icon volley"></i></a></li>
                     </ul>
                 </div>
             </div>

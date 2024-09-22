@@ -12,16 +12,15 @@
 }
 
 .home-content {
-    width: 506px;
-    height: 394px;
     padding-top: 128px;
 
 }
 
 .home-photo img {
     mix-blend-mode: multiply;
-    width: 550px;
-    height: 526px;
+    max-width: 100%;
+    aspect-ratio: 550/526;
+    object-fit: cover;
     padding-top: 52px;
     position: relative;
     animation: moveRightToLeft 2s forwards;
@@ -42,8 +41,6 @@
     font-weight: 700;
     line-height: 60px;
     color: #081C27;
-    width: 463px;
-    height: 120px;
     padding-bottom: 10px;
 }
 
@@ -54,8 +51,6 @@
     line-height: 38px;
     letter-spacing: -0.3px;
     color: #00334E;
-    width: 506px;
-    height: 38px;
     margin-bottom: 26px;
 }
 
@@ -101,17 +96,18 @@
     color: #FFFFFF;
     width: 80px;
     height: 65px;
-    padding: 20px;
     font-size: 1.5rem;
     border-radius: 5px;
     cursor: pointer;
     position: absolute;
     right: 0;
     top: 0;
+    border: none;
 }
 
-.click:active {
-    transform: scale(0.98);
+.click:hover i {
+    transform: translateX(5px);
+    transition: 500ms ease-in;
 }
 
 .app-available {
