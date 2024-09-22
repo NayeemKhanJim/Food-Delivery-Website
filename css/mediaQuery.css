@@ -9,7 +9,9 @@
     }
 
 
-    /* ===================================For Home Section ================================================= */
+    /* ===========================================================================================================
+    ============================================For Home Section ================================================= 
+    ==============================================================================================================*/
     .home-container {
         display: grid;
         grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -44,21 +46,31 @@
         width: 142px;
     }
 
-    .photos {
-        display: flex;
-        flex-direction: column;
+    /* ===========================================================================================================
+    ============================================For Restuarent Section ================================================= 
+    ==============================================================================================================*/
+    .restaurant-title {
+        font-size: 20px;
+        line-height: 26px;
     }
 
-    .social-links {
-        gap: 30px 20px;
+    .food-categories-title {
+        font-size: 20px;
+        line-height: 26px;
     }
 
+    .food-btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
 
-
-
-
-
-
+    /* ===========================================================================================================
+    ============================================For Work Section ================================================= 
+    ==============================================================================================================*/
+    .work-heading {
+        font-size: 20px;
+        line-height: 26px;
+    }
 
     .work-categories {
         display: grid;
@@ -66,35 +78,164 @@
         text-align: center;
     }
 
-
-
     .work-info {
         display: grid;
         grid-template-columns: 1fr;
         grid-row-gap: 32px;
     }
 
+    .work-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .work-steps {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .step-subtitle {
+        font-size: 14px;
+    }
+
+    /* ===========================================================================================================
+    ============================================For Feature Section ================================================= 
+    ==============================================================================================================*/
+
+
+
+    .feature-title {
+        font-size: 20px;
+        line-height: 26px;
+    }
 
     .feature-items {
         display: grid;
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: 69px 48px;
-        text-align: center;
-        padding-bottom: 105px;
+        gap: 49px 0;
 
+    }
+
+    /* ===========================================================================================================
+    ============================================For Testimonial Section ================================================= 
+    ==============================================================================================================*/
+    .statement-title {
+        font-size: 20px;
+        line-height: 48px;
+    }
+
+    .testimonial-subtitle {
+        line-height: 32px;
     }
 
     .testimonial-statements {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 73px 0;
     }
+
+    /* ===========================================================================================================
+    ============================================For Download Section ================================================= 
+    ==============================================================================================================*/
 
     .download-container {
         display: flex;
         flex-direction: column;
-        gap: 100px 0;
+        gap: 20px 0;
     }
+
+    .download-contents {
+        margin-top: 0;
+    }
+
+    .download-title {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .download-subtitle {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    /* ===========================================================================================================
+    ============================================For Gallery Section ================================================= 
+    ==============================================================================================================*/
+    .photos {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0 10px;
+    }
+
+    .photos img:nth-child(even) {
+        transform: translateY(20px);
+
+    }
+
+    .gallery-title {
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 16px;
+        margin-top: 30px;
+    }
+
+    .gallery-subtitle {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    /* ===========================================================================================================
+    ============================================For Order Section ================================================= 
+    ==============================================================================================================*/
+
+    .order-container {
+        display: flex;
+        flex-direction: column;
+        gap: 49px 0;
+        padding: 20px;
+        border-radius: 20px;
+        height: auto;
+        background-color: #FFFAF0;
+        margin-top: 39px;
+    }
+
+    .order-title {
+        font-size: 24px;
+        line-height: 34px;
+        margin-top: 40px;
+    }
+
+    .order-subtitle {
+        font-size: 16px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+
+    .order-content {
+        text-align: center;
+    }
+
+    .order-image {
+        display: none;
+
+    }
+
+    /* ===========================================================================================================
+    ============================================For Order Section ================================================= 
+    ==============================================================================================================*/
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 48px;
+        margin-top: 25px;
+    }
+
+    .social-links {
+        gap: 30px 20px;
+    }
+
 
 
 

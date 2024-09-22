@@ -3,9 +3,8 @@
 }
 
 .photos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .photos img:nth-child(even) {

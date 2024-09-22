@@ -1,5 +1,6 @@
 .work-heading {
     font-size: 24px;
+    line-height: 32px;
     font-weight: 700;
     color: #0F2137;
     text-align: center;
@@ -27,6 +28,7 @@
 
 .work-title {
     font-size: 17px;
+    line-height: 22px;
     color: #0F2137;
     font-weight: 700;
     margin-top: 35px;
@@ -111,7 +113,7 @@
 .work-steps {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 

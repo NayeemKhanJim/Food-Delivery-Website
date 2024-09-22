@@ -8,6 +8,9 @@
     max-width: 100%;
     aspect-ratio: 530/502;
     object-fit: cover;
+    background-color: #FFFAF0;
+    border-radius: 20px;
+    padding: 40px 20px 0;
 }
 
 .download-contents {
