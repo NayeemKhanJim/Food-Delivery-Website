@@ -33,3 +33,13 @@
     margin-bottom: 30px;
     margin-top: 25px;
 }
+
+.download-contents .app-btns .app-btn {
+    background-color: #081C27;
+    color: #FFFFFF;
+}
+
+.download-contents .app-btns .app-btn:hover {
+    background-color: transparent;
+    color: #081C27;
+}

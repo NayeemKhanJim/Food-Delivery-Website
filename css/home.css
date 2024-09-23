@@ -124,38 +124,32 @@
 }
 
 .app-btn {
-    width: 182px;
-    height: 65px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: transparent;
     gap: 0 10px;
     color: #081C27;
     border: 1px solid #00334E;
     border-radius: 10px;
-    align-items: center;
     cursor: pointer;
+    padding: 12px 20px;
 }
 
-.app-btn .app-title p {
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 17px;
-    letter-spacing: 0.2px;
-
-
-}
-
-.app-btn .app-title h3 {
+.app-title {
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
+    letter-spacing: 0.2px;
+}
+
+.text-span span {
+    display: block;
 
 }
 
-.app-btn .app-icon {
+.app-icon {
     font-size: 30px;
-    padding-left: 15px;
 }
 
 .app-btn:hover {
