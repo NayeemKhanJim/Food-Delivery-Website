@@ -8,6 +8,7 @@
 
 .footer-list {
     display: flex;
+    gap: 0 20px;
 
 }
 
@@ -26,6 +27,7 @@
 
 .footer-icon-list {
     display: flex;
+    gap: 0 25px;
 }
 
 .footer-icon:hover {
@@ -35,7 +37,6 @@
 .footer-icon {
     font-size: 25px;
     font-weight: 700;
-    margin-left: 25px;
 }
 
 .fb {

@@ -111,12 +111,12 @@
 .close-toggle-icon {
     display: none;
     position: absolute;
-    top: 0;
-    right: 30px;
+    top: 50px;
+    right: 50px;
     font-size: 18px;
     background-color: transparent;
     color: #00334E;
     padding: 5px 10px;
-    border: none;
     border-radius: 5px;
+    border: 1px solid #00334E;
 }
