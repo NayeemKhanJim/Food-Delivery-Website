@@ -99,11 +99,24 @@
 
 
 .nav-toggle {
-    font-size: 20px;
-    background-color: #00334E;
-    color: #FFFFFF;
+    font-size: 18px;
+    background-color: transparent;
+    color: #00334E;
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
     display: none;
+}
+
+.close-toggle-icon {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #00334E;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 }

@@ -7,3 +7,18 @@ document.addEventListener("scroll", () => {
     }
 
 });
+
+
+
+const navToggle = document.querySelector('.nav-toggle');
+const navList = document.querySelector('.nav-list');
+const navClose = document.querySelector('.close-toggle-icon');
+
+navToggle.addEventListener('click', () => {
+    navList.classList.add('active');
+});
+
+navClose.addEventListener('click', () => {
+    navList.classList.remove('active');
+
+})
