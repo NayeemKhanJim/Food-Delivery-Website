@@ -1,6 +1,6 @@
-@media screen and (min-width : 600px) and (max-width:768px) {
+@media screen and (min-width : 769px) and (max-width:909px) {
     .container {
-        max-width: 600px;
+        max-width: 760px;
         margin: auto;
     }
 
@@ -53,8 +53,8 @@
     ============================================For Home Section ================================================= 
     ==============================================================================================================*/
     .home-container {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .home-photo img {
@@ -78,7 +78,7 @@
     }
 
     .home-input-form {
-        width: 435px;
+        width: 370px;
         height: 65px;
     }
 
@@ -143,6 +143,10 @@
         margin-top: 70px;
     }
 
+    .work-vehicle {
+        justify-self: center;
+    }
+
     .work-title {
         font-size: 16px;
         line-height: 20px;
@@ -150,7 +154,7 @@
 
     .work-steps {
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 4fr;
     }
 
     .step-subtitle {
@@ -184,11 +188,14 @@
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 30px 20px;
+        text-align: center;
+
     }
 
     .statement-title {
         font-size: 20px;
         line-height: 48px;
+        text-align: center;
     }
 
     .testimonial-subtitle {
@@ -199,10 +206,14 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 73px 0;
+        align-items: center;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 20px; */
     }
 
     .author-info {
-        /* flex-direction: column; */
+        justify-content: center;
     }
 
     /* ===========================================================================================================
@@ -210,9 +221,9 @@
     ==============================================================================================================*/
 
     .download-container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0 20px;
     }
 
     .download-contents {
@@ -296,7 +307,6 @@
     ==============================================================================================================*/
     .footer-menu {
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 48px;
