@@ -1,6 +1,6 @@
 .footer-menu {
-    display: grid;
-    grid-template-columns: 2fr 2fr .5fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 48px;
     margin-top: 25px;
@@ -8,7 +8,7 @@
 
 .footer-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 0 30px;
 
 
@@ -58,8 +58,8 @@
     align-items: center;
 }
 
-.footer-logo span {
-    margin-left: 15px;
+.footer-logo p {
+    margin-left: 20px;
 }
 
 .footer-logo a {

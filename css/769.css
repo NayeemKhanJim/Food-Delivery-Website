@@ -1,6 +1,6 @@
-@media screen and (max-width : 600px) {
+@media screen and (min-width : 769px) and (max-width:909px) {
     .container {
-        max-width: 335px;
+        max-width: 760px;
         margin: auto;
     }
 
@@ -53,15 +53,17 @@
     ============================================For Home Section ================================================= 
     ==============================================================================================================*/
     .home-container {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .home-photo img {
         mix-blend-mode: multiply;
         aspect-ratio: 332/318;
         object-fit: contain;
-        padding-top: 52px;
+        padding-top: 152px;
         position: relative;
     }
 
@@ -78,7 +80,7 @@
     }
 
     .home-input-form {
-        width: 335px;
+        width: 435px;
         height: 65px;
     }
 
@@ -105,10 +107,9 @@
     }
 
     .food-items {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 34px 0;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 34px 15px;
     }
 
     .food-categories-title {
@@ -132,7 +133,7 @@
 
     .work-categories {
         display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 40px 0;
         text-align: center;
     }
@@ -173,8 +174,8 @@
 
     .feature-items {
         display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: 49px 0;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 49px 15px;
 
     }
 
@@ -182,6 +183,8 @@
     ============================================For Testimonial Section ================================================= 
     ==============================================================================================================*/
     .social-links {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 30px 20px;
     }
 
@@ -201,7 +204,7 @@
     }
 
     .author-info {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     /* ===========================================================================================================

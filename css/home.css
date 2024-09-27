@@ -54,7 +54,55 @@
     margin-bottom: 26px;
 }
 
-.home-input-form {
+* .home-input-form {
+    width: 450px;
+    height: 65px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    font-family: "Work Sans", sans-serif;
+    border: none;
+    width: 340px;
+    height: 65px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #00334E;
+}
+
+.location-icon {
+    font-size: 25px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.click {
+    background-color: #00334E;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 18px;
+}
+
+.click:hover i {
+    transform: translateX(5px);
+    transition: 500ms ease-in;
+}
+
+/* .home-input-form {
     width: 450px;
     height: 65px;
     background-color: #FFFFFF;
@@ -108,7 +156,7 @@
 .click:hover i {
     transform: translateX(5px);
     transition: 500ms ease-in;
-}
+} */
 
 .app-available {
     font-size: 15px;

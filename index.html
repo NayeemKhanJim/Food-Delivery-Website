@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="css/order.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/mediaQuery.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/lanscapeTab.css">
+    <link rel="stylesheet" href="css/769.css">
 </head>
 <body>
           <!-- =====================================================================================
@@ -73,13 +76,19 @@
                         <div class="home-content">
                             <h1 class="home-title">Your favorite food,<br>delivered your home</h1>
                             <h5 class="home-subtitle">Food, drinks, groceries, and more available for delivery and pickup.</h5>
-                                <form class="home-input-form">
+                                <!-- <form class="home-input-form">
                                      <i class="fa-solid fa-location-dot location-icon"></i>
                                     <input type="text" class="input" placeholder="Enter Your address...">
                                     <button class="click">
                                         <i class="fa-solid fa-arrow-right "></i>
                                     </button>
-                                </form>
+                                </form> -->
+                                <form class="home-input-form">
+                                    <label for="text"><i class="fa-solid fa-location-dot location-icon"></i></label>
+                                   <input type="text" class="input" placeholder="Enter Your address...">
+                                   <!-- <button class="click">  </button> -->
+                                    <label for="text" class="click"><i class="fa-solid fa-arrow-right"></i></label>
+                               </form>
                             <p class="app-available">Apps Available to download on</p>
                             <div class="app-btns">
                                 <button class="app-btn">
@@ -224,7 +233,7 @@
                                 </button>
                             </div>
                             <div class="work-card">
-                                <img src="img/1.png" alt="Android app" class="work-img">
+                                <img src="img/3.png" alt="Android app" class="work-img">
                                 <h3 class="work-title">Try Android/iOS App</h3>
                                 <p class="work-subtitle">Get the best DoorDash experience with live order tracking.</p>
                                 <button class="work-btn">Get the app
@@ -319,7 +328,7 @@
             <!-- =====================================================================================
 	       ================================  MARKUP FOR TESTIMONIAL  ======================================
 	       ======================================================================================= -->
-           <section class="testimonial" id="testimonial">
+        <section class="testimonial" id="testimonial">
             <div class="container">
                 <h1 class="testimonial-title">210,000+ people already use our app on a daily basis</h1>
                 <div class="social-links">
@@ -330,18 +339,40 @@
                     <div><img src="img/visao.png" alt="visao" class="social-link"></div>
                     <div><img src="img/oralUnic.png" alt="oralUnic" class="social-link"></div>
                 </div>
-                <div class="testimonial-statements">
-                    <div class="testimonial-statement">
-                        <h3 class="statement-title">What people say about us</h3>
-                        <p class="testimonial-subtitle">OMG! I cannot believe that I have got a brand new landing page
-                             after getting this template we are able to use our most used e-commerce template with modern
-                              and trending design.</p>
+
+                <!-- ================================================================== -->
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <h3 class="statement-title">What people say about us</h3>
+                            <p class="quote" id="quote">“OMG! I cannot believe that I have got a brand new landing page after getting this template we are able
+                                 to use our most used e-commerce template with modern and trending design.”</p>
+                            <div class="author-info">
+                                <div id="author1" class="author">
+                                    <img src="img/test1.png" alt="Mariana Dickey" class="author-img" id="author-img-1">
+                                    <div>
+                                        <p id="author-name-1" class="author-name">Mariana Dickey</p>
+                                        <p id="author-role-1" class="author-role">UI Designer</p>
+                                    </div>
+                                </div>
+                                <div id="author2" class="author">
+                                    <img src="img/test2.png" alt="Jonathan Taylor" class="author-img faded" id="author-img-2">
+                                    <div>
+                                        <p id="author-name-2" class="author-name faded">Jonathan Taylor</p>
+                                        <p id="author-role-2" class="author-role faded">CEO at Creativex</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <span class="dot" data-index="0"></span>
+                                <span class="dot" data-index="1"></span>
+                                <span class="dot" data-index="2"></span>
+                            </div>     
+                        </div>
+                        <div class="testimonial-image">
+                            <img src="img/test.png" alt="testimonial">
+                        </div>
                     </div>
-                    <div class="testimonial-image">
-                        <img src="img/test.png" alt="testimonial">
-                    </div>
-    
-                </div>
+
             </div>
            </section>
            <!-- =====================================================================================
